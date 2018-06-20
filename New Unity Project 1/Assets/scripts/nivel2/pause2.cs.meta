@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 43a3a3f069bba874c8ee20e57edc3022
+timeCreated: 1449451533
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - jacksingle: {fileID: 184546, guid: cf674a070c7521e4cb791e0306dab3f6, type: 2}
+  - imagem: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

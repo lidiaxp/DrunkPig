@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 6a25909ba9ab6bc44869d9f153280ae5
+timeCreated: 1463340827
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aluminium
+    100002: backlght
+    100004: black
+    100006: body
+    100008: braklght
+    100010: //RootNode
+    100012: chrome
+    100014: Dummy
+    100016: glass
+    100018: glassblk
+    100020: headglas
+    100022: headlght
+    100024: inter_w
+    100026: interior
+    100028: mirror
+    100030: nplate
+    100032: Object01
+    100034: plastbri
+    100036: plastic
+    100038: rearlght
+    100040: turnlght
+    100042: tyre
+    100044: wheel
+    400000: aluminium
+    400002: backlght
+    400004: black
+    400006: body
+    400008: braklght
+    400010: //RootNode
+    400012: chrome
+    400014: Dummy
+    400016: glass
+    400018: glassblk
+    400020: headglas
+    400022: headlght
+    400024: inter_w
+    400026: interior
+    400028: mirror
+    400030: nplate
+    400032: Object01
+    400034: plastbri
+    400036: plastic
+    400038: rearlght
+    400040: turnlght
+    400042: tyre
+    400044: wheel
+    2300000: aluminium
+    2300002: backlght
+    2300004: black
+    2300006: body
+    2300008: braklght
+    2300010: chrome
+    2300012: glass
+    2300014: glassblk
+    2300016: headglas
+    2300018: headlght
+    2300020: inter_w
+    2300022: interior
+    2300024: mirror
+    2300026: nplate
+    2300028: Object01
+    2300030: plastbri
+    2300032: plastic
+    2300034: rearlght
+    2300036: turnlght
+    2300038: tyre
+    2300040: wheel
+    3300000: aluminium
+    3300002: backlght
+    3300004: black
+    3300006: body
+    3300008: braklght
+    3300010: chrome
+    3300012: glass
+    3300014: glassblk
+    3300016: headglas
+    3300018: headlght
+    3300020: inter_w
+    3300022: interior
+    3300024: mirror
+    3300026: nplate
+    3300028: Object01
+    3300030: plastbri
+    3300032: plastic
+    3300034: rearlght
+    3300036: turnlght
+    3300038: tyre
+    3300040: wheel
+    4300000: aluminium
+    4300002: backlght
+    4300004: black
+    4300006: body
+    4300008: braklght
+    4300010: chrome
+    4300012: glass
+    4300014: glassblk
+    4300016: headglas
+    4300018: headlght
+    4300020: inter_w
+    4300022: interior
+    4300024: mirror
+    4300026: nplate
+    4300028: plastbri
+    4300030: plastic
+    4300032: rearlght
+    4300034: turnlght
+    4300036: tyre
+    4300038: wheel
+    4300040: Object01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

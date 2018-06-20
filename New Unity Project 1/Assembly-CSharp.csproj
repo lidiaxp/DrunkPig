@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{FC9411EB-1B12-4154-0219-EEA7CBD09863}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\scripts\creditos\creditos.cs" />
+     <Compile Include="Assets\scripts\menu\data.cs" />
+     <Compile Include="Assets\scripts\menu\fadeout.cs" />
+     <Compile Include="Assets\scripts\menu\gotomeni.cs" />
+     <Compile Include="Assets\scripts\menu\mudar.cs" />
+     <Compile Include="Assets\scripts\menu\musicamenu.cs" />
+     <Compile Include="Assets\scripts\multi\controleplayer.cs" />
+     <Compile Include="Assets\scripts\multi\controleplayer2.cs" />
+     <Compile Include="Assets\scripts\multi\criarinimigos.cs" />
+     <Compile Include="Assets\scripts\multi\enemyattackmelee.cs" />
+     <Compile Include="Assets\scripts\multi\enemyattackrange.cs" />
+     <Compile Include="Assets\scripts\multi\enemymovimento.cs" />
+     <Compile Include="Assets\scripts\multi\enemymovimento2.cs" />
+     <Compile Include="Assets\scripts\multi\gameover.cs" />
+     <Compile Include="Assets\scripts\multi\musicamulti.cs" />
+     <Compile Include="Assets\scripts\multi\pauseemenu.cs" />
+     <Compile Include="Assets\scripts\multi\redlgbt.cs" />
+     <Compile Include="Assets\scripts\multi\score.cs" />
+     <Compile Include="Assets\scripts\multi\score2.cs" />
+     <Compile Include="Assets\scripts\multi\tiro.cs" />
+     <Compile Include="Assets\scripts\multi\tiro2.cs" />
+     <Compile Include="Assets\scripts\multi\tiropratras.cs" />
+     <Compile Include="Assets\scripts\multi\tiropratras2.cs" />
+     <Compile Include="Assets\scripts\multi\vida.cs" />
+     <Compile Include="Assets\scripts\multi\vida2.cs" />
+     <Compile Include="Assets\scripts\multi\vidainimigo.cs" />
+     <Compile Include="Assets\scripts\nivel1\agua.cs" />
+     <Compile Include="Assets\scripts\nivel1\bottle.cs" />
+     <Compile Include="Assets\scripts\nivel1\celeiro.cs" />
+     <Compile Include="Assets\scripts\nivel1\garrafas.cs" />
+     <Compile Include="Assets\scripts\nivel1\movimento.cs" />
+     <Compile Include="Assets\scripts\nivel1\music.cs" />
+     <Compile Include="Assets\scripts\nivel1\pause.cs" />
+     <Compile Include="Assets\scripts\nivel1\save.cs" />
+     <Compile Include="Assets\scripts\nivel1\tempo.cs" />
+     <Compile Include="Assets\scripts\nivel10\andar10.cs" />
+     <Compile Include="Assets\scripts\nivel10\attackmelee10.cs" />
+     <Compile Include="Assets\scripts\nivel10\attackranged10.cs" />
+     <Compile Include="Assets\scripts\nivel10\colher.cs" />
+     <Compile Include="Assets\scripts\nivel10\colhermovimento.cs" />
+     <Compile Include="Assets\scripts\nivel10\colherspawn.cs" />
+     <Compile Include="Assets\scripts\nivel10\criarinimigo10.cs" />
+     <Compile Include="Assets\scripts\nivel10\life10.cs" />
+     <Compile Include="Assets\scripts\nivel10\movimentoinimigo10.cs" />
+     <Compile Include="Assets\scripts\nivel10\musica10.cs" />
+     <Compile Include="Assets\scripts\nivel10\pause10.cs" />
+     <Compile Include="Assets\scripts\nivel10\redlgbt10.cs" />
+     <Compile Include="Assets\scripts\nivel10\save10.cs" />
+     <Compile Include="Assets\scripts\nivel10\tiro10.cs" />
+     <Compile Include="Assets\scripts\nivel10\tiropratras10.cs" />
+     <Compile Include="Assets\scripts\nivel10\vidainimigo10.cs" />
+     <Compile Include="Assets\scripts\nivel2\andar.cs" />
+     <Compile Include="Assets\scripts\nivel2\animalsound.cs" />
+     <Compile Include="Assets\scripts\nivel2\camera.cs" />
+     <Compile Include="Assets\scripts\nivel2\camerapersegue.cs" />
+     <Compile Include="Assets\scripts\nivel2\crazycam.cs" />
+     <Compile Include="Assets\scripts\nivel2\destroil.cs" />
+     <Compile Include="Assets\scripts\nivel2\janela.cs" />
+     <Compile Include="Assets\scripts\nivel2\musica2.cs" />
+     <Compile Include="Assets\scripts\nivel2\pause2.cs" />
+     <Compile Include="Assets\scripts\nivel2\save2.cs" />
+     <Compile Include="Assets\scripts\nivel2\tempo2.cs" />
+     <Compile Include="Assets\scripts\nivel3\andar3.cs" />
+     <Compile Include="Assets\scripts\nivel3\baconattack.cs" />
+     <Compile Include="Assets\scripts\nivel3\calabouco.cs" />
+     <Compile Include="Assets\scripts\nivel3\enemylife.cs" />
+     <Compile Include="Assets\scripts\nivel3\jacklife.cs" />
+     <Compile Include="Assets\scripts\nivel3\linguiçaattack.cs" />
+     <Compile Include="Assets\scripts\nivel3\movimentomal.cs" />
+     <Compile Include="Assets\scripts\nivel3\musica3.cs" />
+     <Compile Include="Assets\scripts\nivel3\pause3.cs" />
+     <Compile Include="Assets\scripts\nivel3\pontos.cs" />
+     <Compile Include="Assets\scripts\nivel3\save3.cs" />
+     <Compile Include="Assets\scripts\nivel3\tirofrente.cs" />
+     <Compile Include="Assets\scripts\nivel3\tirotras.cs" />
+     <Compile Include="Assets\scripts\nivel3\tospawn.cs" />
+     <Compile Include="Assets\scripts\nivel4\frasco.cs" />
+     <Compile Include="Assets\scripts\nivel4\jack.cs" />
+     <Compile Include="Assets\scripts\nivel4\life4.cs" />
+     <Compile Include="Assets\scripts\nivel4\lifefrasco.cs" />
+     <Compile Include="Assets\scripts\nivel4\mao.cs" />
+     <Compile Include="Assets\scripts\nivel4\musica.cs" />
+     <Compile Include="Assets\scripts\nivel4\musica4.cs" />
+     <Compile Include="Assets\scripts\nivel4\pause4.cs" />
+     <Compile Include="Assets\scripts\nivel4\queda.cs" />
+     <Compile Include="Assets\scripts\nivel4\redlegt4.cs" />
+     <Compile Include="Assets\scripts\nivel4\save4.cs" />
+     <Compile Include="Assets\scripts\nivel4\spawn4.cs" />
+     <Compile Include="Assets\scripts\nivel4\tf4.cs" />
+     <Compile Include="Assets\scripts\nivel4\tt4.cs" />
+     <Compile Include="Assets\scripts\nivel5\andar5.cs" />
+     <Compile Include="Assets\scripts\nivel5\gotas.cs" />
+     <Compile Include="Assets\scripts\nivel5\gotinp.cs" />
+     <Compile Include="Assets\scripts\nivel5\lasers.cs" />
+     <Compile Include="Assets\scripts\nivel5\life5.cs" />
+     <Compile Include="Assets\scripts\nivel5\musica5.cs" />
+     <Compile Include="Assets\scripts\nivel5\paranoia.cs" />
+     <Compile Include="Assets\scripts\nivel5\pause5.cs" />
+     <Compile Include="Assets\scripts\nivel5\save5.cs" />
+     <Compile Include="Assets\scripts\nivel5\spawn51.cs" />
+     <Compile Include="Assets\scripts\nivel5\spawn52.cs" />
+     <Compile Include="Assets\scripts\nivel5\tempo5.cs" />
+     <Compile Include="Assets\scripts\nivel6\andar6.cs" />
+     <Compile Include="Assets\scripts\nivel6\cima.cs" />
+     <Compile Include="Assets\scripts\nivel6\destroy.cs" />
+     <Compile Include="Assets\scripts\nivel6\farms.cs" />
+     <Compile Include="Assets\scripts\nivel6\frente.cs" />
+     <Compile Include="Assets\scripts\nivel6\musica6.cs" />
+     <Compile Include="Assets\scripts\nivel6\pause6.cs" />
+     <Compile Include="Assets\scripts\nivel6\pontuaçao.cs" />
+     <Compile Include="Assets\scripts\nivel6\predio.cs" />
+     <Compile Include="Assets\scripts\nivel6\save6.cs" />
+     <Compile Include="Assets\scripts\nivel6\tfactory.cs" />
+     <Compile Include="Assets\scripts\nivel6\tfarm.cs" />
+     <Compile Include="Assets\scripts\nivel7\GiantWorld.cs" />
+     <Compile Include="Assets\scripts\nivel7\andar7.cs" />
+     <Compile Include="Assets\scripts\nivel7\aviao.cs" />
+     <Compile Include="Assets\scripts\nivel7\faca.cs" />
+     <Compile Include="Assets\scripts\nivel7\instantiatemontanha.cs" />
+     <Compile Include="Assets\scripts\nivel7\life7.cs" />
+     <Compile Include="Assets\scripts\nivel7\montanha.cs" />
+     <Compile Include="Assets\scripts\nivel7\musica7.cs" />
+     <Compile Include="Assets\scripts\nivel7\pause7.cs" />
+     <Compile Include="Assets\scripts\nivel7\save7.cs" />
+     <Compile Include="Assets\scripts\nivel7\spawnaviao.cs" />
+     <Compile Include="Assets\scripts\nivel7\spawnfaca.cs" />
+     <Compile Include="Assets\scripts\nivel8\andar8.cs" />
+     <Compile Include="Assets\scripts\nivel8\carromovimento.cs" />
+     <Compile Include="Assets\scripts\nivel8\life8.cs" />
+     <Compile Include="Assets\scripts\nivel8\musica8.cs" />
+     <Compile Include="Assets\scripts\nivel8\pause8.cs" />
+     <Compile Include="Assets\scripts\nivel8\pedra.cs" />
+     <Compile Include="Assets\scripts\nivel8\save8.cs" />
+     <Compile Include="Assets\scripts\nivel8\somacelerar.cs" />
+     <Compile Include="Assets\scripts\nivel8\spawnpedra.cs" />
+     <Compile Include="Assets\scripts\nivel9\andar9.cs" />
+     <Compile Include="Assets\scripts\nivel9\attackmelee9.cs" />
+     <Compile Include="Assets\scripts\nivel9\attackranged9.cs" />
+     <Compile Include="Assets\scripts\nivel9\criarinimigo9.cs" />
+     <Compile Include="Assets\scripts\nivel9\criarinimigo92.cs" />
+     <Compile Include="Assets\scripts\nivel9\life9.cs" />
+     <Compile Include="Assets\scripts\nivel9\movimentoinimigo9.cs" />
+     <Compile Include="Assets\scripts\nivel9\musica9.cs" />
+     <Compile Include="Assets\scripts\nivel9\musicianlife.cs" />
+     <Compile Include="Assets\scripts\nivel9\pause9.cs" />
+     <Compile Include="Assets\scripts\nivel9\redlgbt9.cs" />
+     <Compile Include="Assets\scripts\nivel9\save9.cs" />
+     <Compile Include="Assets\scripts\nivel9\spawnmusician.cs" />
+     <Compile Include="Assets\scripts\nivel9\tiro9.cs" />
+     <Compile Include="Assets\scripts\nivel9\tiropratras9.cs" />
+     <Compile Include="Assets\scripts\nivel9\vidainimigo9.cs" />
+     <None Include="Assets\objetos de cena\permissoes\archibase4.net.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase6.net.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase.net.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase0.net.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase1.net.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase2.net.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase3.net.txt" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\objetos de cena\permissoes\archibase5.net.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{8A372BAF-BA95-0346-D5FC-D82F8865A500}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
